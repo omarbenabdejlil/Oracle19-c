@@ -306,6 +306,7 @@ Successfully Setup Software.
 1. Start the listener with **`oracle` user**.
 
 ```bash
+chmod -R 777 /u01/app/oracle/product/19.3.0/dbhome_1
 lsnrctl start
 ```
 
