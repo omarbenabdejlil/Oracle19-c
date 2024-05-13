@@ -55,13 +55,13 @@ chmod u+x *.rpm
 3. Install the libcapl library for getting and setting POSIX.1e (formerly POSIX 6) draft 15 capabilities.
 
 ```bash
-dnf localinstall -y compat-libcap1-1.10-7.el7.x86_64.rpm
+dnf install -y compat-libcap1-1.10-7.el7.x86_64.rpm
 ```
 
 4. Inatll the libstdc++ package which contains compatibility standard C++ library from GCC 3.3.4.
 
 ```bash
-dnf localinstall -y compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
+dnf install -y compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
 ```
 
 5. Install the below required packages.
@@ -79,7 +79,7 @@ dnf install -y bc binutils elfutils-libelf elfutils-libelf-devel fontconfig-deve
 1. Install the Oracle Installation Prerequisites (OIP) package.
 
 ```bash
-dnf localinstall -y oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
+dnf install -y oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
 ```
 
 2. Open the `/etc/group` file, update the GID of the below items.
